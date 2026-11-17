@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REMO - Smart Daily Assistant</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffaf0;
+      color: #29394d;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 8%;
+    }
+
+    .logo {
+      font-size: 27px;
+      font-weight: bold;
+      color: #559bc7;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .mascot {
+      font-size: 100px;
+      margin-bottom: 12px;
+      animation: float 2.5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    h1 {
+      font-size: 34px;
+      line-height: 1.25;
+      margin-bottom: 15px;
+    }
+
+    h1 span {
+      color: #559bc7;
+    }
+
+    .hero p {
+      color: #75808d;
+      max-width: 480px;
+      margin: 0 auto 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f5dce8;
+      color: #29394d;
+      padding: 13px 28px;
+      border: 2px solid #29394d;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 0 #29394d;
+    }
+
+    section {
+      padding: 35px 7%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 24px;
+      font-size: 23px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      border: 2px solid #29394d;
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 4px 0 #29394d;
+    }
+
+    .card .icon {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #75808d;
+    }
+
+    .download {
+      text-align: center;
+      background: #edf6fb;
+      margin: 30px 7%;
+      padding: 40px 20px;
+      border-radius: 22px;
+      border: 2px solid #29394d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #75808d;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">REMO.</div>
+    <span>Smart Daily Assistant</span>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="mascot">🤖</div>
+      <h1>Make Your Day<br>More <span>Productive!</span></h1>
+      <p>
+        Asisten pintar untuk membantu mengatur jadwal,
+        mengingatkan tugas, dan mencapai target harianmu.
+      </p>
+      <a href="#download" class="btn">Mulai Bersama REMO →</a>
+    </div>
+
+    <section>
+      <h2>Apa yang bisa kamu lakukan di REMO?</h2>
+
+      <div class="features">
+        <div class="card">
+          <div class="icon">📅</div>
+          <h3>Smart Schedule</h3>
+          <p>Atur kegiatan dan jadwal harian dengan mudah.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">🤖</div>
+          <h3>REMO AI</h3>
+          <p>Dapatkan rekomendasi jadwal untuk membantu produktivitasmu.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">⏰</div>
+          <h3>Daily Reminder</h3>
+          <p>Jangan lewatkan tugas dan kegiatan penting.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Focus Mode</h3>
+          <p>Fokus belajar dengan bantuan Pomodoro.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Productivity Stats</h3>
+          <p>Pantau perkembangan dan pencapaian harianmu.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="download">
+      <div class="download">
+        <div class="mascot">💙</div>
+        <h2>Ready to be productive?</h2>
+        <p>Mulai atur harimu bersama REMO.</p>
+        <br>
+        <a href="#" class="btn">Download REMO APK</a>
+        <p style="font-size:12px; margin-top:18px;">
+          Android Application
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 REMO. Your Smart Daily Assistant.
+  </footer>
+
+</body>
+</html>
